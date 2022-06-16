@@ -1,0 +1,190 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+h1 {
+    color: white;
+}
+
+.top p {
+    color: white;
+    font-size: 14px;
+}
+
+.top button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    color: white;
+}
+
+
+.logo {
+    color: white;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px 0px 60px 0px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px 40px 60px 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    gap: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 60px;
+    padding: 0px 40px 60px 40px;
+}
+
+.right {
+    width: 500px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-section {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 40px 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-section h2 {
+ padding-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 60px
+}
+
+.card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.card p {
+    margin-top: 4px;
+    
+}
+
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: solid 2px #3882f6;
+    margin: 0;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 60px 40px 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    width:500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    margin: 0px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.quotee {
+    margin: 0px;
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.call-section {
+    background-color: #F9FAF8;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.call-card {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    gap: 30px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.call-to-action {
+    font-weight: 800;
+    margin: 0px;
+}
+
+.subtext {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.call-right button {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    width: 100px;
+    color: #F9FAF8;
+}
+
+.footer{
+    text-align: center;
+    margin-top: auto;
+    padding: 20px 0 0px 0;
+    color:#F9FAF8
+}
+
